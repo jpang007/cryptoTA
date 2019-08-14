@@ -10,6 +10,9 @@ module.exports = {
     filename: 'bundle.js',
   },
   module : {
+    loaders: [
+      { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' }
+    ],
     rules : [
       {
         test: /\.css$/,
@@ -26,7 +29,7 @@ module.exports = {
       {
         test : /\.jsx?/,
         include : SRC_DIR,
-        loader : 'babel-loader',      
+        loader : 'babel-loader',
         query: {
           presets: ['react', 'es2015']
        }

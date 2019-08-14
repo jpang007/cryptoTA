@@ -4,16 +4,15 @@ import Iframe from 'react-iframe'
 class graph extends Component {
   render() {
     return (
-      <div>
-        <p> First load time might be slow... Thanks for waiting :) </p>
-        <Iframe url="https://cryptota.herokuapp.com"
-        height="1200px"
-        width="100%"
-        id="myGraph"
-        display="initial"
-        position="relative"
-        allowFullScreen/>
-      </div>
+      <table className = "iframecontainer">
+          <Iframe url="https://pangjeremy.pythonanywhere.com/"
+          position="relative"
+          height="100%"
+          width="100%"
+          scrolling="No"
+          styles={{overflow:"hidden"}}
+          id="myGraph"/>
+      </table>
     )
   }
 }

@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "cryptota",
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "react-client/dist" } }
+    ],
+    "alias": ["cryptota.org"]
+}
