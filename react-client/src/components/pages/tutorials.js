@@ -46,19 +46,19 @@ class tutorials extends Component {
             <h1> Advanced Technical Analysis Indicators </h1>
           </div>
           <div className="btn-group">
-          <a href='#/tutorials/RSIS'><button>RSI + Stochastic</button></a>
-          <a href='#/tutorials/BCT'><button>Bollinger CT</button></a>
-          <a href='#/tutorials/EMA'><button>EMA Crossover</button></a>
+          <a href='#/tutorials/RSIS'><button disabled>RSI + Stochastic</button></a>
+          <a href='#/tutorials/BCT'><button disabled>Bollinger CT</button></a>
+          <a href='#/tutorials/EMA'><button disabled>EMA Crossover</button></a>
           </div>
 
           <div className ="WriteUp">
             <h1> Cryptocurrencies </h1>
           </div>
           <div className="btn-group">
-          <a href='#/tutorials/Bitcoin'><button>Bitcoin</button></a>
-          <a href='#/tutorials/Ethereum'><button>Ethereum</button></a>
-          <a href='#/tutorials/Litecoin'><button>Litecoin</button></a>
-          <a href='#/tutorials/Altcoins'><button>Altcoins</button></a>
+          <a href='#/tutorials/Bitcoin'><button disabled>Bitcoin</button></a>
+          <a href='#/tutorials/Ethereum'><button disabled>Ethereum</button></a>
+          <a href='#/tutorials/Litecoin'><button disabled>Litecoin</button></a>
+          <a href='#/tutorials/Altcoins'><button disabled>Altcoins</button></a>
           </div>
 
           <br></br>

@@ -52,7 +52,7 @@ class aboutMe extends Component {
            This was a very fun side project for me to do. I just wanted to focus on two interests of mine; cryptocurrency and
            technical analysis. I'm Jeremy, CS major from the University of California, Riverside.
           Currently, I am working as a Technical Consultant in Washington,
-           DC and a mentor for the Nashville Software School. </p>
+           DC. Outside of work, I volunteer with the Nashville Software School as a Student Mentor and love to learn more about history and aviation! </p>
 
          <p> For this project I used Dash, a third party app by Plotly, and Python to do the graphing and React Native for
          settting up the actual website. I've always been interested in cryptocurrency and I'm still long on it.
