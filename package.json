@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.2",
     "axois": "^1.0.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
